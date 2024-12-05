@@ -1,7 +1,11 @@
-import "./App.css";
+import DictionaryApp from "./components/dictionaryApp";
 
 function App() {
-  return <div>HII</div>;
+  return (
+    <div>
+      <DictionaryApp />
+    </div>
+  );
 }
 
 export default App;
