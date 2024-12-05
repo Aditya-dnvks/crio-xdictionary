@@ -22,7 +22,7 @@ const DictionaryApp = () => {
     );
 
     if (word) {
-      setResult(`Definition: ${word.meaning}`);
+      setResult(word.meaning);
     } else {
       setResult("Word not found in the dictionary.");
     }
@@ -53,7 +53,9 @@ const DictionaryApp = () => {
           Search
         </button>
       </div>
-      <p style={{ marginTop: "20px" }}>{result}</p>
+      <p style={{ marginTop: "20px" }}>
+        <b>Definition:</b> {result}
+      </p>
     </div>
   );
 };
