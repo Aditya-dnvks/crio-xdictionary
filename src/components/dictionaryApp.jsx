@@ -53,9 +53,10 @@ const DictionaryApp = () => {
           Search
         </button>
       </div>
-      <p style={{ marginTop: "20px" }}>
-        <b>Definition:</b> {result}
+      <p>
+        <b>Definition:</b>
       </p>
+      <p style={{ marginTop: "20px" }}>{result}</p>
     </div>
   );
 };
